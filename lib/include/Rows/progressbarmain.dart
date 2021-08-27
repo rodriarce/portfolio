@@ -12,23 +12,23 @@ class SkillBarDesk extends StatelessWidget {
         children: <Widget>[
           Text('Proficiency', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 50),),
           SizedBox(height: 30,),
-          Text('Frontend/Design', style: TextStyle(fontSize: 18),), 
+          Text('Unity', style: TextStyle(fontSize: 18),), 
         RoundedProgressBar(
     style: RoundedProgressBarStyle(
         borderWidth: 0, 
         widthShadow: 0),
     margin: EdgeInsets.symmetric(vertical: 16),
     borderRadius: BorderRadius.circular(24),
-    percent: 90,
+    percent: 95,
 ),
-     Text('Adobe Photoshop/Premiere pro', style: TextStyle(fontSize: 18),),
+     Text('Flutter Developer', style: TextStyle(fontSize: 18),),
      RoundedProgressBar(
     style: RoundedProgressBarStyle(
         borderWidth: 0, 
         widthShadow: 0),
     margin: EdgeInsets.symmetric(vertical: 16),
     borderRadius: BorderRadius.circular(24),
-    percent: 75,
+    percent: 60,
 ),
      Text('Programming', style: TextStyle(fontSize: 18),),
        RoundedProgressBar(

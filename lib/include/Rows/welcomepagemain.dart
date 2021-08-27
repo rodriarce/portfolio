@@ -12,12 +12,12 @@ class WelcomePageDesk extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Text("Hi ! I'm Naveen Jujaray", 
+          Text("Hi ! I'm Arce Rodrigo", 
           style: TextStyle(fontWeight: FontWeight.w800, height: 1.3, fontSize: 50),
           textAlign: TextAlign.center,
           ),
           SizedBox(height: 30,),
-          Text("I help out Spider-man with his web slingers, or you could call me a web designer.", 
+          Text("I'am a Game And Apps Developer", 
           style: TextStyle(fontSize: 21,height: 1.7,),
           textAlign: TextAlign.center,
           ),
@@ -51,7 +51,7 @@ class WelcomePageDesk extends StatelessWidget {
                       icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ),
                        onPressed: ()
                        {
-                       js.context.callMethod("open", ["https://www.linkedin.com/in/naveenjujaray"]);
+                       js.context.callMethod("open", ["https://www.linkedin.com/in/rodrigoarceunity"]);
                        },
                        )),
                 ),
@@ -71,52 +71,14 @@ class WelcomePageDesk extends StatelessWidget {
                       icon: Icon(FontAwesomeIcons.github, size: 40,), 
                       onPressed: ()
                       {
-                       js.context.callMethod("open", ["https://www.github.com/naveenjujaray"]);
+                       js.context.callMethod("open", ["https://github.com/rodriarce"]);
                        },
                       )),
                 ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.gitlab, color: Colors.orange, size: 40,), 
-                      onPressed: ()
-                      {
-                       js.context.callMethod("open", ["https://www.gitlab.com/naveenjujaray"]);
-                       },
-                      )),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.medium, size: 40,), 
-                      onPressed: ()
-                      {
-                       js.context.callMethod("open", ["https://medium.com/@naveenjujaray"]);
-                       },
-                       )),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.dev,size: 40,), 
-                      onPressed: ()
-                      {
-                       js.context.callMethod("open", ["https://dev.to/naveenjujaray"]);
-                       },
-                       )),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.reddit, color: Colors.deepOrangeAccent,size: 40,), 
-                      onPressed: ()
-                      {
-                       js.context.callMethod("open", ["https://www.reddit.com/user/jujaraynaveen"]);
-                       },
-                       )),
-                ),
-              ],
-            ),
+              
+                
+               
+              ],),
           SizedBox(height: 40,),
          Row(
                mainAxisAlignment: MainAxisAlignment.center,
@@ -138,7 +100,7 @@ class WelcomePageDesk extends StatelessWidget {
               SizedBox(width: 50,),
                Expanded(
                   child: GestureDetector(
-                    onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"]);
+                    onTap: (){js.context.callMethod("open", ["https://docs.google.com/document/d/1qZG5r773ySOskYXvOxIWgExTqb5Lkh9LFNt0-8isV9Y/edit?usp=sharing"]);
                     },
                                       child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
@@ -172,13 +134,13 @@ class WelcomePageTab extends StatelessWidget {
           children: <Widget>[
             SizedBox(height: 40,),
             Center(
-              child:  Text("Hi ! I'm Naveen Jujaray", 
+              child:  Text("Hi ! I'm Arce Rodrigo", 
               style: TextStyle(fontWeight: FontWeight.w800, height: 1.3, fontSize: 50),
               textAlign: TextAlign.justify,),
             ),
             SizedBox(height: 30,),
             Center(
-              child: Text("I help out Spider-man with his web slingers, or you could call me a web designer.", 
+              child: Text("I'am a Game And Apps Developer", 
               style: TextStyle(fontSize: 20,height: 1.7,),
               textAlign: TextAlign.center,),
             ),
@@ -212,7 +174,7 @@ class WelcomePageTab extends StatelessWidget {
                         icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ), 
                         onPressed: ()
                          {
-                         js.context.callMethod("open", ["https://www.linkedin.com/in/naveenjujaray"]);
+                         js.context.callMethod("open", ["https://www.linkedin.com/in/rodrigoarceunity/"]);
                          },
                          )),
                   ),
@@ -232,52 +194,13 @@ class WelcomePageTab extends StatelessWidget {
                         icon: Icon(FontAwesomeIcons.github, size: 40,), 
                         onPressed:()
                         {
-                         js.context.callMethod("open", ["https://www.github.com/naveenjujaray"]);
+                         js.context.callMethod("open", ["https://github.com/rodriarce"]);
                          },
                          )),
                   ),
-                  Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.gitlab, color: Colors.orange, size: 40,), 
-                        onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://www.gitlab.com/naveenjujaray"]);
-                         },
-                         )),
-                  ),
-                  Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.medium,  size: 40,), 
-                        onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://medium.com/@naveenjujaray"]);
-                         },
-                         )),
-                  ),
-                  Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.dev, size: 40,), 
-                        onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://dev.to/naveenjujaray"]);
-                         },
-                         )),
-                  ),
-                  Expanded(
-                                    child: Container( width: 60,height: 60,
-                      child: IconButton(
-                        icon: Icon(FontAwesomeIcons.reddit, color: Colors.deepOrangeAccent,size: 40,), 
-                        onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://www.reddit.com/user/jujaraynaveen"]);
-                         },
-                         )),
-                  ),
-                ],
-              ),
+                                  
+                 
+                 
               SizedBox(height: 20,),
             Row(
                mainAxisAlignment: MainAxisAlignment.center,
@@ -296,7 +219,7 @@ class WelcomePageTab extends StatelessWidget {
               ),
             SizedBox(width: 20,),
              GestureDetector(
-                 onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"]);
+                 onTap: (){js.context.callMethod("open", ["https://docs.google.com/document/d/1qZG5r773ySOskYXvOxIWgExTqb5Lkh9LFNt0-8isV9Y/edit?usp=sharing"]);
                     },
                             child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
@@ -312,10 +235,10 @@ class WelcomePageTab extends StatelessWidget {
            ),
             
           ],
-        ),
+        ),]
       ),
-    );
-  }
+    ));}
+  
 }
 
 class WelcomePageMob extends StatelessWidget {
@@ -330,13 +253,13 @@ class WelcomePageMob extends StatelessWidget {
           children: <Widget>[
             SizedBox(height: 40,),
             Center(
-              child:  Text("Hi ! I'm Naveen Jujaray", 
+              child:  Text("Hi ! I'm Arce Rodrigo", 
               style: TextStyle(fontWeight: FontWeight.w800, height: 1.3, fontSize: 32),
               textAlign: TextAlign.justify,),
             ),
             SizedBox(height: 30,),
             Center(
-              child: Text("I help out Spider-man with his web slingers, or you could call me a web designer.", 
+              child: Text("I'm a Game and Apps Developer", 
               style: TextStyle(fontSize: 16,height: 1.7,),
               textAlign: TextAlign.center,),
             ),
@@ -352,57 +275,29 @@ class WelcomePageMob extends StatelessWidget {
                          js.context.callMethod("open", ["https://www.facebook.com/naveenjujaray"]);
                          },
                          )),
-                  Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.twitter, color: Colors.lightBlue, size: 40,), 
-                      onPressed: ()
-                         {
-                         js.context.callMethod("open", ["https://twitter.com/naveenjujaray"]);
-                         },
-                         )),
+                
                   Container( width: 55,height: 55,
                     child: IconButton(
                       icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ), 
                       onPressed: ()
                          {
-                         js.context.callMethod("open", ["https://www.linkedin.com/in/naveenjujaray"]);
+                         js.context.callMethod("open", ["https://www.linkedin.com/in/rodrigoarceunity"]);
                          },
                          )),
-                  Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.bloggerB, color: Colors.red, size: 40,), 
-                      onPressed: ()
-                         {
-                         js.context.callMethod("open", ["https://naveenjujaray.js.org"]);
-                         },
-                         )),
+                 
                   Container( width: 55,height: 55,
                     child: IconButton(
                       icon: Icon(FontAwesomeIcons.github,  size: 40,), onPressed: ()
                         {
-                         js.context.callMethod("open", ["https://www.github.com/naveenjujaray"]);
+                         js.context.callMethod("open", ["https://github.com/rodriarce"]);
                          },
                          )),
                 ],
               ),
               Row(mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                 Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.gitlab, color: Colors.orange, size: 40,), 
-                      onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://www.gitlab.com/naveenjujaray"]);
-                         },
-                         )),
-                  Container( width: 55,height: 55,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.medium,  size: 40,), 
-                      onPressed: ()
-                        {
-                         js.context.callMethod("open", ["https://medium.com/@naveenjujaray"]);
-                         },
-                         )),
+                
+               
                   Container( width: 55,height: 55,
                     child: IconButton(
                       icon: Icon(FontAwesomeIcons.dev, size: 40,), 
@@ -446,7 +341,7 @@ class WelcomePageMob extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                      GestureDetector(
-                         onTap: (){js.context.callMethod("open", ["https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"]);
+                         onTap: (){js.context.callMethod("open", ["https://docs.google.com/document/d/1qZG5r773ySOskYXvOxIWgExTqb5Lkh9LFNt0-8isV9Y/edit?usp=sharing"]);
                     },
                                             child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
